@@ -21,13 +21,18 @@
     };
     console.log(multiply(5, 5));
 
-    // function capitalize(word) {
-    //   return word.upperCase();
-    // };
-    // console.log(capitalize("hello there"));
+    function capitalize(word) {
+      // return word.charAt(0).toUpperCase() + word.slice(1);
+      return word[0].toUpperCase() + word.slice(1);
+    };
+    console.log(capitalize("learning jS"));
 
     function lastLetter(letter) {
-    }
+      // return letter.lastIndexOf();
+      return letter.slice(-1);
+    };
+
+    console.log(lastLetter("javascript"));
 
   </script>
 </body>
